@@ -1,0 +1,84 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size:12px;
+    padding:30px;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    width:70vw;
+    margin: auto;
+}
+.container ul{
+    margin:10px;
+}
+header img{
+    width:15vw;
+}
+header a{
+    color:white;
+    text-decoration:none;
+}
+video{
+    position:absolute;
+    top:0px;
+    width:99vw;
+    z-index: -1;
+}
+.presentation-block{
+    background-color: rgba(0, 0, 0, 0.8);
+    height:98vh;
+    width:99vw;
+}
+.presentation{
+    color:white;
+    background-color: rgba(0, 0, 0, 0);
+    display:flex;
+    flex-direction:row;
+    width:70vw;
+    margin:auto;
+}
+.presentation h1{
+    font-size:45px;
+}
+.presentation div{
+    width:50%;
+}
+.tariffs{
+    color:white;
+    font-size:10px;
+    height:50px;
+    width:200px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(247, 79, 9);
+    border-radius: 7px;
+}
+.presentation-facts-general{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    justify-content:center;
+}
+.presentation-facts{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    justify-content:space-between;
+}
+.presentation-fact{
+    border-left:3px solid rgb(247, 79, 9);
+    padding-left:20px;
+}
+.presentation-fact p{
+    font-size:10px;
+}
+.presentation-fact h1{
+    font-size:12px;
+}
