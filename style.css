@@ -25,6 +25,7 @@ header img{
 header a{
     color:white;
     text-decoration:none;
+    margin: 20px;
 }
 video{
     position:absolute;
